@@ -10,9 +10,16 @@
 
 ### 目录
 
+#### 理论篇
+
 * [深入学习 Node.js EventEmitter](https://github.com/semlinker/node-deep/blob/master/event/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20EventEmitter.md)
 * [深入学习 Node.js Buffer](https://github.com/semlinker/node-deep/blob/master/buffer/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0Node.js%20Buffer.md)
 * [深入学习 Node.js Module](https://github.com/semlinker/node-deep/blob/master/module/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Module.md)
+* [深入学习 Node.js Http 基础篇](https://github.com/semlinker/node-deep/blob/master/http/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Http%20%E5%9F%BA%E7%A1%80%E7%AF%87.md)
+
+#### 实战篇
+
+* [Node.js Buffer 实战](https://github.com/semlinker/node-deep/blob/master/buffer/Node.js%20Buffer%20%E5%AE%9E%E6%88%98.md)
 
 ### 资源
 
