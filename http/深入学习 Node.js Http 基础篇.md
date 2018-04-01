@@ -1,5 +1,33 @@
 ## 深入学习 Node.js Http 基础篇
 
+<!-- TOC -->
+
+- [深入学习 Node.js Http 基础篇](#深入学习-nodejs-http-基础篇)
+    - [B/S 结构定义](#bs-结构定义)
+    - [URI (统一资源标志符)](#uri-统一资源标志符)
+        - [URI 文法](#uri-文法)
+    - [MIME](#mime)
+        - [文件格式](#文件格式)
+    - [HTTP 协议](#http-协议)
+    - [HTTP 协议主要特点](#http-协议主要特点)
+    - [HTTP 请求报文](#http-请求报文)
+        - [请求报文示例](#请求报文示例)
+        - [请求行](#请求行)
+        - [请求头](#请求头)
+        - [空行（请求）](#空行请求)
+        - [请求体](#请求体)
+    - [HTTP 响应报文](#http-响应报文)
+        - [响应报文示例](#响应报文示例)
+        - [状态行](#状态行)
+        - [响应头](#响应头)
+        - [空行（响应）](#空行响应)
+        - [响应体](#响应体)
+    - [HTTP 请求方法](#http-请求方法)
+    - [HTTP 状态码](#http-状态码)
+    - [参考资源](#参考资源)
+
+<!-- /TOC -->
+
 ### B/S 结构定义
 
 > **浏览器-服务器（Browser/Server）结构**，简称[B/S结构](https://zh.wikipedia.org/wiki/B/S%E7%BB%93%E6%9E%84)，与[C/S结构](https://zh.wikipedia.org/wiki/C/S%E7%BB%93%E6%9E%84)不同，其客户端不需要安装专门的[软件](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6)，只需要[浏览器](https://zh.wikipedia.org/wiki/%E6%B5%8F%E8%A7%88%E5%99%A8)即可，浏览器通过[Web](https://zh.wikipedia.org/wiki/Web)[服务器](https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8)与[数据库](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93)进行交互，可以方便的在不同平台下工作；服务器端可采用高性能[计算机](https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA)，并安装[Oracle](https://zh.wikipedia.org/wiki/Oracle)、[Sybase](https://zh.wikipedia.org/wiki/Sybase)、[Informix](https://zh.wikipedia.org/w/index.php?title=Informix&action=edit&redlink=1)等大型数据库。B/S结构简化了客户端的工作，它是随着[Internet](https://zh.wikipedia.org/wiki/Internet)技术兴起而产生的，对C/S技术的改进，但该结构下服务器端的工作较重，对服务器的性能要求更高。—— [维基百科](https://zh.wikipedia.org/wiki/%E6%B5%8F%E8%A7%88%E5%99%A8-%E6%9C%8D%E5%8A%A1%E5%99%A8)
@@ -110,7 +138,7 @@ GET / HTTP/1.1
   - keep-alive：告诉WEB服务器或代理服务器。在完成本次请求的响应后，保持连接，以等待后续请求
 - Cookie：存储于客户端扩展字段，向同一域名的服务端发送属于该域的cookie - PSTM=1490844191; BIDUPSID=2145FF54639208435F60E1E165379255;
 
-#### 空行
+#### 空行（请求）
 
 最后一个请求头之后是一个空行，发送回车符和换行符，通知服务器以下不再有请求头。
 
@@ -162,7 +190,7 @@ Set-Cookie: BDSVRTM=0; path=/
 - Expires：设置过期时间。
 - Set-Cookie：设置 Cookie 信息。
 
-#### 空行
+#### 空行（响应）
 
 最后一个响应头之后是一个空行，发送回车符和换行符，通知浏览器以下不再有响应头。
 

@@ -18,6 +18,7 @@
 * [深入学习 Node.js Http 基础篇](https://github.com/semlinker/node-deep/blob/master/http/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Http%20%E5%9F%BA%E7%A1%80%E7%AF%87.md)
 * [深入学习 Node.js Http](https://github.com/semlinker/node-deep/blob/master/http/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Http.md)
 * [深入学习 Node.js Net](https://github.com/semlinker/node-deep/blob/master/net/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Net.md)
+* [深入学习 Node.js Stream 基础篇](https://github.com/semlinker/node-deep/blob/master/stream/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Stream%20%E5%9F%BA%E7%A1%80%E7%AF%87.md)
 
 #### 实战篇
 
