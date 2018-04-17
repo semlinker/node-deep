@@ -15,6 +15,7 @@
 * [深入学习 Node.js EventEmitter](https://github.com/semlinker/node-deep/blob/master/event/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20EventEmitter.md)
 * [深入学习 Node.js Buffer](https://github.com/semlinker/node-deep/blob/master/buffer/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0Node.js%20Buffer.md)
 * [深入学习 Node.js Module](https://github.com/semlinker/node-deep/blob/master/module/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Module.md)
+* [深入学习 Node.js Module 进阶篇](https://github.com/semlinker/node-deep/blob/master/module/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Module%20%E8%BF%9B%E9%98%B6%E7%AF%87.md)
 * [深入学习 Node.js Http 基础篇](https://github.com/semlinker/node-deep/blob/master/http/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Http%20%E5%9F%BA%E7%A1%80%E7%AF%87.md)
 * [深入学习 Node.js Http](https://github.com/semlinker/node-deep/blob/master/http/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Http.md)
 * [深入学习 Node.js Net](https://github.com/semlinker/node-deep/blob/master/net/%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0%20Node.js%20Net.md)
@@ -26,7 +27,23 @@
 
 ### 资源
 
+#### 流
+
+* [github — stream-handbook](https://github.com/substack/stream-handbook)
+
+
+* [github — streamify-your-node-program](https://github.com/zoubin/streamify-your-node-program/blob/master/README.md)
+* [medium — node-js-streams-everything-you-need-to-know](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
+
+#### 事件循环
+
+* [不要混淆nodejs和浏览器中的event loop](https://cnodejs.org/topic/5a9108d78d6e16e56bb80882)
+
+#### 系列教程
+
 - [深入理解Node.js：核心思想与源码分析](https://yjhjstz.gitbooks.io/deep-into-node/)
 - [Davidc.ai - Node.js 源码分析系列](https://davidc.ai/archives/)
 - [Xiedacon - Node.js 源码分析系列](http://www.xiedacon.com/archives/)
 - [NodeJS源码分析-由浅入深解析架构以及运行原理](https://github.com/fzxa/NodeJS-Nucleus-Plus-Internals)
+- [Node.js 挖掘系列](https://cnodejs.org/user/LanceHBZhang)
+- [Fz-node](https://215566435.github.io/Fz-node/#/home)
